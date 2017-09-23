@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "rosette:honey_comb"
+		}
+	],
+	"result": {
+		"item": "rosette:wax",
+		"count": 2
+	}
+}

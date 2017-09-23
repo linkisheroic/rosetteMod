@@ -1,0 +1,42 @@
+#Items
+item.adamantine_ingot.name=Adamantine Ingot
+item.bucket_honey.name=Honey Bucket
+item.rose_quartz.name=Rose Quartz
+item.bucket_rubber.name=Rubber Bucket
+item.rubber.name=Rubber
+item.strawberry_seeds.name=Strawberry Seeds
+item.strawberry.name=Strawberry
+item.obsidian_shard.name=Obsidian Shard
+item.honey_comb.name=Honey Comb
+item.wax.name=Wax
+item.blueberry.name=Blueberry
+item.blueberry_seeds.name=Blueberry Seeds
+item.glazed_apple.name=Glazed Apple
+item.adamantine_pickaxe.name=Adamantine Pickaxe
+item.opal.name=Opal
+item.orange.name=Orange
+item.pear.name=Pear
+item.bananna.name=Bananna
+item.blackberry.name=Blackberry
+item.coconut.name=Coconut
+item.wine_bottle.name=Wine Bottle
+item.cherry.name=Cherry
+item.acorn.name=Acorn
+item.acorn_cooked.name=Roasted Acorn
+item.pine_cone.name=Pine Cone
+
+#Blocks
+tile.rose_quartz_block.name=Rose Quartz Block
+tile.bee_hive.name=Bee Hive
+tile.rose_quartz_ore.name=Rose Quartz Ore
+tile.wax_mushroom.name=Wax Cap Mushroom
+tile.tree_tap.name=Tree Tap
+tile.opal_ore.name=Opal Ore
+tile.rubber_log.name=Rubber Log
+tile.rubber_planks.name=Rubber Planks
+tile.dandehue.black.name=Black Dandehue
+tile.blackberry_bush.name=Blackberry Bush
+tile.blueberry_bush.name=Blueberry Bush
+
+#Creative Tab
+itemGroup.rosette=Rosette

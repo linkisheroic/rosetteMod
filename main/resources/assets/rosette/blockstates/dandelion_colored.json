@@ -1,0 +1,77 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+	  "model": "minecraft:cross",
+      "cross": "rosette:blocks/dandelion/dandelion_white"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "minecraft:cross",
+	  "cross": "rosette:blocks/dandelion/dandelion_white"
+    },
+    "color": {
+      "black": {
+		"model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_black"
+      },
+      "gray": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_gray"
+      },
+      "light_gray": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_light_gray"
+      },
+	  "blue": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_blue"
+      },
+	  "light_blue": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_light_blue"
+      },
+	  "red": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_red"
+      },
+	  "pink": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_pink"
+      },
+	  "magenta": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_magenta"
+      },
+	  "cyan": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_cyan"
+      },
+	  "orange": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_orange"
+      },
+	  "brown": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_brown"
+      },
+	  "yellow": {
+	    "model": "minecraft:cross",
+        "cross": "minecraft:blocks/flower_dandelion"
+      },
+	  "purple": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_purple"
+      },
+	  "green": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_green"
+      },
+	  "light_green": {
+	    "model": "minecraft:cross",
+        "cross": "rosette:blocks/dandelion/dandelion_light_green"
+      },
+    }
+  }
+}

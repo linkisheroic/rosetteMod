@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" O ",
+		"OIO",
+		" O "
+	],
+	"key": {
+		"O": {
+			"item": "rosette:obsidian_shard"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"result": {
+		"item": "rosette:adamantine_ingot"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GRG",
+		"G G",
+		"GGG"
+	],
+	"key": {
+		"R": {
+			"item": "rosette:rubber"
+		},
+		"G": {
+			"item": "minecraft:glass"
+		}
+	},
+	"result": {
+		"item": "rosette:wine_bottle"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RA"
+	],
+	"key": {
+		"R": {
+			"item": "rosette:bucket_honey"
+		},
+		"A": {
+			"item": "minecraft:apple"
+		}
+	},
+	"result": {
+		"item": "rosette:glazed_apple"
+	}
+}

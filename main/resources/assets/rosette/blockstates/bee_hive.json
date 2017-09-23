@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "front": "rosette:blocks/bee_hive_front",
+      "top": "rosette:blocks/bee_hive_bottom",
+      "side": "rosette:blocks/bee_hive_side",
+      "particle": "rosette:blocks/bee_hive_side"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "orientable"
+    },
+    "inventory": {
+      "model": "orientable"
+    },
+    "facing": {
+      "north": {
+        "model": "orientable",
+        "y": 180
+      },
+      "south": {
+        "model": "orientable"
+      },
+      "west": {
+        "model": "orientable",
+        "y": 90
+      },
+      "east": {
+        "model": "orientable",
+        "y": 270
+      }
+    }
+  }
+}

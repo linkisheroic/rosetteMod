@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "rosette:blueberry"
+		}
+	],
+	"result": {
+		"item": "rosette:blueberry_seeds"
+	}
+}

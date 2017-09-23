@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:tree_tap"
+		},
+		"inventory": {
+			"model": "rosette:tree_tap",
+			"transform": "forge:default-block"
+		}
+	}
+}

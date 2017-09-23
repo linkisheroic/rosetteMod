@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "rosette:wax_mushroom"
+		}
+	],
+	"result": {
+		"item": "rosette:wax",
+		"count": 2
+	}
+}

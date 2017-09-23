@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "rosette:strawberry"
+		}
+	],
+	"result": {
+		"item": "rosette:strawberry_seeds"
+	}
+}

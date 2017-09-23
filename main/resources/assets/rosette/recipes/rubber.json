@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "rosette:bucket_rubber"
+		}
+	],
+	"result": {
+		"item": "rosette:rubber"
+	}
+}

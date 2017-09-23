@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "minecraft:cube_all",
+		"textures": {
+			"up": "rosette:blocks/rubber_log_top",
+			"down": "rosette:blocks/rubber_log_top",
+			"east": "rosette:blocks/rubber_log",
+			"west": "rosette:blocks/rubber_log",
+			"north": "rosette:blocks/rubber_log",
+			"south": "rosette:blocks/rubber_log",
+			"particle": "rosette:blocks/rubber_log"
+		}
+	},
+	"variants": {
+		"normal": {
+			"model": "cube_all"
+		},
+		"inventory": {
+			"model": "cube_all"
+		}
+	}
+}

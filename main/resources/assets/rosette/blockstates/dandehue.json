@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "color=white": { "model": "rosette:dandehue_white" },
+    "color=orange": { "model": "rosette:dandehue_orange" },
+    "color=magenta": { "model": "rosette:dandehue_magenta" },
+    "color=light_blue": { "model": "rosette:dandehue_light_blue" },
+    "color=yellow": { "model": "rosette:dandehue_yellow" },
+    "color=lime": { "model": "rosette:dandehue_light_green" },
+    "color=pink": { "model": "rosette:dandehue_pink" },
+    "color=gray": { "model": "rosette:dandehue_gray" },
+    "color=silver": { "model": "rosette:dandehue_light_gray" },
+    "color=cyan": { "model": "rosette:dandehue_cyan" },
+    "color=purple": { "model": "rosette:dandehue_purple" },
+    "color=blue": { "model": "rosette:dandehue_blue" },
+    "color=brown": { "model": "rosette:dandehue_brown" },
+    "color=green": { "model": "rosette:dandehue_green" },
+    "color=red": { "model": "rosette:dandehue_red" },
+    "color=black": { "model": "rosette:dandehue_black" }
+  }
+}
