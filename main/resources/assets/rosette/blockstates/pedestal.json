@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:pedestal"
+		},
+		"inventory": {
+			"model": "rosette:pedestal",
+			"transform": "forge:default-block"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:sea_shell"
+		},
+		"inventory": {
+			"model": "rosette:sea_shell_inventory",
+			"transform": "forge:default-item"
+		},
+    "facing": {
+      "north": {
+        "model": "rosette:sea_shell",
+        "y": 180
+      },
+      "south": {
+        "model": "rosette:sea_shell"
+      },
+      "west": {
+        "model": "rosette:sea_shell",
+        "y": 90
+      },
+      "east": {
+        "model": "rosette:sea_shell",
+        "y": 270
+      }
+    }
+  }
+}

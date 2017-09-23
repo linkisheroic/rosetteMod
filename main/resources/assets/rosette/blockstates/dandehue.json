@@ -1,4 +1,5 @@
 {
+  "forge_marker": 1,
   "variants": {
     "color=white": { "model": "rosette:dandehue_white" },
     "color=orange": { "model": "rosette:dandehue_orange" },
@@ -15,6 +16,7 @@
     "color=brown": { "model": "rosette:dandehue_brown" },
     "color=green": { "model": "rosette:dandehue_green" },
     "color=red": { "model": "rosette:dandehue_red" },
-    "color=black": { "model": "rosette:dandehue_black" }
+    "color=black": { "model": "rosette:dandehue_black" },
+	"inventory": { "model": "rosette:dandehue_inventory"}
   }
 }

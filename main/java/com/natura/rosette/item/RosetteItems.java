@@ -1,11 +1,13 @@
 package com.natura.rosette.item;
 
 import com.natura.rosette.Rosette;
+import com.natura.rosette.armor.ItemArmorBase;
 import com.natura.rosette.block.RosetteBlocks;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -27,7 +29,15 @@ public class RosetteItems {
 	public static BlueberrySeeds blueberrySeeds = new BlueberrySeeds().setCreativeTab(Rosette.creativeTab);
 	public static ItemBlueberry blueberry = new ItemBlueberry(2, 0.2F, false).setCreativeTab(Rosette.creativeTab);
 	public static ItemGlazedApple glazedApple = new ItemGlazedApple(8, 0.6F, false).setCreativeTab(Rosette.creativeTab);
-	public static AdamantinePickaxe adamantinePickaxe = new AdamantinePickaxe(Rosette.adamantine).setCreativeTab(Rosette.creativeTab);
+	public static ItemAdamantinePickaxe adamantinePickaxe = new ItemAdamantinePickaxe(Rosette.adamantine).setCreativeTab(Rosette.creativeTab);
+	public static ItemAdamantineShovel adamantineShovel = new ItemAdamantineShovel(Rosette.adamantine).setCreativeTab(Rosette.creativeTab);
+	public static ItemAdamantineAxe adamantineAxe = new ItemAdamantineAxe(Rosette.adamantine).setCreativeTab(Rosette.creativeTab);
+	public static ItemAdamantineHoe adamantineHoe = new ItemAdamantineHoe(Rosette.adamantine).setCreativeTab(Rosette.creativeTab);
+	public static ItemAdamantineSword adamantineSword = new ItemAdamantineSword(Rosette.adamantine).setCreativeTab(Rosette.creativeTab);
+	public static ItemArmorBase adamantineHelmet = new ItemArmorBase(Rosette.adamantineArmor, EntityEquipmentSlot.HEAD, "adamantine_helmet");
+	public static ItemArmorBase adamantineChestplate = new ItemArmorBase(Rosette.adamantineArmor, EntityEquipmentSlot.CHEST, "adamantine_chestplate");
+	public static ItemArmorBase adamantineLeggings = new ItemArmorBase(Rosette.adamantineArmor, EntityEquipmentSlot.LEGS, "adamantine_leggings");
+	public static ItemArmorBase adamantineBoots = new ItemArmorBase(Rosette.adamantineArmor, EntityEquipmentSlot.FEET, "adamantine_boots");
 	public static ItemBase opal = new ItemBase("opal").setCreativeTab(Rosette.creativeTab);
 	public static ItemPear pear = new ItemPear(4, 0.4F, false).setCreativeTab(Rosette.creativeTab);
 	public static ItemOrange orange = new ItemOrange(4, 0.4F, false).setCreativeTab(Rosette.creativeTab);
@@ -56,6 +66,14 @@ public class RosetteItems {
 				blueberry,
 				glazedApple,
 				adamantinePickaxe,
+				adamantineSword,
+				adamantineHoe,
+				adamantineShovel,
+				adamantineAxe,
+				adamantineHelmet,
+				adamantineChestplate,
+				adamantineLeggings,
+				adamantineBoots,
 				opal,
 				pear,
 				orange,
@@ -85,6 +103,14 @@ public class RosetteItems {
 		blueberry.registerItemModel();
 		glazedApple.registerItemModel();
 		adamantinePickaxe.registerItemModel(adamantinePickaxe);
+		adamantineAxe.registerItemModel();
+		adamantineSword.registerItemModel(adamantineSword);
+		adamantineShovel.registerItemModel(adamantineShovel);
+		adamantineHoe.registerItemModel(adamantineHoe);
+		adamantineHelmet.registerItemModel(adamantineHelmet);
+		adamantineChestplate.registerItemModel(adamantineChestplate);
+		adamantineLeggings.registerItemModel(adamantineLeggings);
+		adamantineBoots.registerItemModel(adamantineBoots);
 		opal.registerItemModel();
 		pear.registerItemModel();
 		orange.registerItemModel();

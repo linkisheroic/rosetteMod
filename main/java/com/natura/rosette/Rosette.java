@@ -8,8 +8,11 @@ import com.natura.rosette.item.RosetteItems;
 import com.natura.rosette.proxy.CommonProxy;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.util.EnumHelper;
@@ -29,8 +32,9 @@ public class Rosette {
     public static final String MODNAME = "Rosette";
     public static final String VERSION = "0.0.1";
     public static final RosetteTab creativeTab = new RosetteTab();
-    public static final Item.ToolMaterial adamantine = EnumHelper.addToolMaterial("ADAMANTINE", 3, 3122, 10.0F, 3.0F, 10);
-    
+    public static final RosetteDecorationTab decorationTab = new RosetteDecorationTab();
+    public static final Item.ToolMaterial adamantine = EnumHelper.addToolMaterial("ADAMANTINE", 3, 3122, 10.0F, 5.0F, 10);
+    public static final ItemArmor.ArmorMaterial adamantineArmor = EnumHelper.addArmorMaterial("adamantine", MODID + ":adamantine", 3122, new int[]{5, 8, 8, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.2F);
 
 
     @SidedProxy(clientSide = "com.natura.rosette.proxy.ClientProxy", serverSide = "com.natura.rosette.proxy.ServerProxy")

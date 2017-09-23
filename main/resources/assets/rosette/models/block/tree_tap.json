@@ -1,11 +1,11 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "0": "blocks/tree_tap_new",
-        "1": "blocks/tree_tap",
-        "2": "blocks/tree_tap_handle",
-        "3": "blocks/tree_tap_spout",
-		"particle": "blocks/tree_tap"
+        "0": "rosette:blocks/tree_tap_new",
+        "1": "rosette:blocks/tree_tap",
+        "2": "rosette:blocks/tree_tap_handle",
+        "3": "rosette:blocks/tree_tap_spout",
+		"particle": "rosette:blocks/tree_tap"
     },
     "elements": [
         {

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" S ",
+		" W ",
+		"WWW"
+	],
+	"key": {
+		"W": {
+			"item": "rosette:wax"
+		},
+		"S": {
+			"item": "minecraft:string"
+		}
+	},
+	"result": {
+		"item": "rosette:candle"
+	}
+}

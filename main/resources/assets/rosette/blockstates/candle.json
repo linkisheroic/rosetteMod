@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:candle"
+		},
+		"inventory": {
+			"model": "rosette:candle_inventory",
+			"transform": "forge:default-item"
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:mortar_pestle"
+		},
+		"inventory": {
+			"model": "rosette:mortar_pestle",
+			"transform": "forge:default-block"
+		}
+	}
+}

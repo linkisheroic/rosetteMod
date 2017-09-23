@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:jar"
+		},
+		"inventory": {
+			"model": "rosette:jar",
+			"transform": "forge:default-block"
+		}
+	}
+}

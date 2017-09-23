@@ -1,6 +1,7 @@
 package com.natura.rosette.block;
 
 import com.natura.rosette.Rosette;
+import com.natura.rosette.item.ItemColoredBlock;
 
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.material.MapColor;
@@ -74,13 +75,6 @@ public class BlockFlowerBase extends BlockBush {
     }
 	
 	@Override
-	public IBlockState getStateForPlacement(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY,
-			float hitZ, int meta, EntityLivingBase placer, EnumHand hand) {
-		// TODO Auto-generated method stub
-		return this.getStateFromMeta(placer.getActiveItemStack().getItem().getMetadata(placer.getActiveItemStack().getItemDamage()));
-	}
-	
-	@Override
 	public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items)
     {
 		for (EnumDyeColor enumdyecolor : EnumDyeColor.values())
@@ -97,7 +91,7 @@ public class BlockFlowerBase extends BlockBush {
 	
 	public Item createItemBlock() {
 		
-			return new ItemBlock(this);
+		return new ItemColoredBlock(this);
 			
 	}
 	

@@ -1,0 +1,32 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:oak_table"
+		},
+		"inventory": {
+			"model": "rosette:oak_table",
+			"transform": "forge:default-block"
+		},
+    "type": {
+      "oak": {
+        "model": "rosette:oak_table"
+      },
+      "spruce": {
+        "model": "rosette:spruce_table"
+      },
+      "birch": {
+        "model": "rosette:birch_table"
+      },
+      "jungle": {
+        "model": "rosette:jungle_table"
+      },
+	  "acacia": {
+        "model": "rosette:acacia_table"
+      },
+	  "dark_oak": {
+        "model": "rosette:dark_oak_table"
+      }
+    }
+  }
+}
