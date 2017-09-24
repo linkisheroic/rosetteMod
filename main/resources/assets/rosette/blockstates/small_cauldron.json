@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "rosette:small_cauldron"
+		},
+		"inventory": {
+			"model": "rosette:small_cauldron",
+			"transform": "forge:default-block"
+		}
+	}
+}

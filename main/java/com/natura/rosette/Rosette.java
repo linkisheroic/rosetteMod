@@ -9,12 +9,14 @@ import com.natura.rosette.proxy.CommonProxy;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.world.BlockEvent;
@@ -33,6 +35,7 @@ public class Rosette {
     public static final String VERSION = "0.0.1";
     public static final RosetteTab creativeTab = new RosetteTab();
     public static final RosetteDecorationTab decorationTab = new RosetteDecorationTab();
+    public static final RosetteBaubleTab baubleTab = new RosetteBaubleTab();
     public static final Item.ToolMaterial adamantine = EnumHelper.addToolMaterial("ADAMANTINE", 3, 3122, 10.0F, 5.0F, 10);
     public static final ItemArmor.ArmorMaterial adamantineArmor = EnumHelper.addArmorMaterial("adamantine", MODID + ":adamantine", 3122, new int[]{5, 8, 8, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.2F);
 
@@ -56,11 +59,19 @@ public class Rosette {
     	public static void registerItems(ModelRegistryEvent event) {
     		RosetteItems.registerModels();
     		RosetteBlocks.registerModels();
+        	ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(RosetteBlocks.oakTable), 0, new ModelResourceLocation(RosetteBlocks.oakTable.getRegistryName(), "type=oak"));
+        	ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(RosetteBlocks.oakTable), 1, new ModelResourceLocation(RosetteBlocks.oakTable.getRegistryName(), "type=spruce"));
+        	ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(RosetteBlocks.oakTable), 2, new ModelResourceLocation(RosetteBlocks.oakTable.getRegistryName(), "type=birch"));
+        	ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(RosetteBlocks.oakTable), 3, new ModelResourceLocation(RosetteBlocks.oakTable.getRegistryName(), "type=jungle"));
+        	ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(RosetteBlocks.oakTable), 4, new ModelResourceLocation(RosetteBlocks.oakTable.getRegistryName(), "type=acacia"));
+        	ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(RosetteBlocks.oakTable), 5, new ModelResourceLocation(RosetteBlocks.oakTable.getRegistryName(), "type=dark_oak"));
+
     	}
     	
     	@SubscribeEvent
     	public static void registerBlocks(RegistryEvent.Register<Block> event) {
     		RosetteBlocks.register(event.getRegistry());
+    		
     	}
 	
 	}

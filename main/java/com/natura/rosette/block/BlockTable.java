@@ -26,6 +26,11 @@ public class BlockTable extends BlockBase {
 	}
 	
 	@Override
+	public void registerItemModel(Item itemBlock) {
+		Rosette.proxy.registerItemRenderer(itemBlock, this.getMetaFromState(this.blockState.getBaseState()), name);
+	}
+	
+	@Override
 	public int damageDropped(IBlockState state)
     {
         return ((BlockPlanks.EnumType)state.getValue(TYPE)).getMetadata();

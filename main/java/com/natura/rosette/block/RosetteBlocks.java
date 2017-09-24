@@ -30,6 +30,7 @@ public class RosetteBlocks {
 	public static BlockTreeTap treeTap = new BlockTreeTap();
 	public static BlockMortarPestle mortarPestle = new BlockMortarPestle();
 	public static BlockTable oakTable = new BlockTable();
+	public static BlockSmallCauldron smallCauldron = new BlockSmallCauldron();
 	
 	
 	public static void register(IForgeRegistry<Block> registry) {
@@ -54,7 +55,8 @@ public class RosetteBlocks {
 				altar,
 				treeTap,
 				mortarPestle,
-				oakTable
+				oakTable,
+				smallCauldron
 		);
 
 	}
@@ -79,7 +81,8 @@ public class RosetteBlocks {
 				altar.createItemBlock().setRegistryName(altar.getRegistryName()),
 				treeTap.createItemBlock().setRegistryName(treeTap.getRegistryName()),
 				mortarPestle.createItemBlock().setRegistryName(mortarPestle.getRegistryName()),
-				oakTable.createItemBlock().setRegistryName(oakTable.getRegistryName())
+				oakTable.createItemBlock().setRegistryName(oakTable.getRegistryName()),
+				smallCauldron.createItemBlock().setRegistryName(smallCauldron.getRegistryName())
 		);
 	}
 
@@ -102,7 +105,7 @@ public class RosetteBlocks {
 		altar.registerItemModel(Item.getItemFromBlock(altar));
 		treeTap.registerItemModel(Item.getItemFromBlock(treeTap));
 		mortarPestle.registerItemModel(Item.getItemFromBlock(mortarPestle));
-		oakTable.registerItemModel(Item.getItemFromBlock(oakTable));
+		smallCauldron.registerItemModel(Item.getItemFromBlock(smallCauldron));
 	}
 
 }

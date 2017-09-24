@@ -1,6 +1,7 @@
 package com.natura.rosette.proxy;
 
 import com.natura.rosette.Rosette;
+import com.natura.rosette.block.RosetteBlocks;
 import com.natura.rosette.item.RosetteItems;
 
 import net.minecraft.block.Block;
@@ -30,6 +31,7 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void registerItemRenderer(Item item, int meta, String id) {
     	ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+
     }
     
 }

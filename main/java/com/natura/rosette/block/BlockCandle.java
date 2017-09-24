@@ -26,7 +26,7 @@ public class BlockCandle extends BlockBase {
 		super(Material.CLAY, "candle");
 		this.setTickRandomly(true);
 		this.setCreativeTab(Rosette.decorationTab);
-		this.setLightLevel(15.0F);
+		this.setLightLevel(1.0F);
 	}
 	
 	@Override

@@ -32,6 +32,14 @@ item.cherry.name=Cherry
 item.acorn.name=Acorn
 item.acorn_cooked.name=Roasted Acorn
 item.pine_cone.name=Pine Cone
+item.bat_fur.name=Bat Fur
+item.bat_guano.name=Bat Guano
+item.ring_gold.name=Golden Ring
+item.tiara_gold.name=Golden Tiara
+item.ring_iron.name=Iron Ring
+item.tiara_iron.name=Iron Tiara
+item.ring_iron_opal.name=Opal Iron Ring
+item.ring_gold_opal.name=Opal Gold Ring
 
 #Blocks
 tile.rose_quartz_block.name=Rose Quartz Block
@@ -60,7 +68,7 @@ tile.dandehue.cyan.name=Cyan Dandehue
 tile.dandehue.magenta.name=Magenta Dandehue
 tile.blackberry_bush.name=Blackberry Bush
 tile.blueberry_bush.name=Blueberry Bush
-tile.pedestal.name=Pedestal
+tile.pedestal.name=Jewelry Table
 tile.candle.name=Wax Candle
 tile.sea_shell.name=Sea Shell
 tile.jar.name=Jar
@@ -73,7 +81,12 @@ tile.table.birch.name=Birch Table
 tile.table.jungle.name=Jungle Table
 tile.table.acacia.name=Acacia Table
 tile.table.dark_oak.name=Dark Oak Table
+tile.small_cauldron.name=Decorative Cauldron
 
 #Creative Tab
 itemGroup.rosette=Rosette
 itemGroup.rosetteDecorations=Rosette Decor
+itemGroup.rosetteBaubles=Rosette Baubles
+
+#Container
+container.jewelryTable.name=Jewelry Station

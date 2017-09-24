@@ -8,6 +8,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -49,6 +50,14 @@ public class RosetteItems {
 	public static ItemAcorn acorn = new ItemAcorn().setCreativeTab(Rosette.creativeTab);
 	public static ItemAcornCooked acornCooked = new ItemAcornCooked(4, 0.2F, false).setCreativeTab(Rosette.creativeTab);
 	public static ItemPineCone pineCone = new ItemPineCone().setCreativeTab(Rosette.creativeTab);
+	public static ItemBase batFur = new ItemBase("bat_fur").setCreativeTab(Rosette.creativeTab);
+	public static ItemBase batGuano = new ItemBase("bat_guano").setCreativeTab(Rosette.creativeTab);
+	public static ItemRing goldRing = new ItemRing("ring_gold", EnumRarity.COMMON, 1);
+	public static ItemTiara goldTiara = new ItemTiara("tiara_gold", EnumRarity.COMMON, 1);
+	public static ItemTiara ironTiara = new ItemTiara("tiara_iron", EnumRarity.COMMON, 0);
+	public static ItemRing ironRing = new ItemRing("ring_iron", EnumRarity.COMMON, 0);
+	public static ItemRing opalIronRing = new ItemRing("ring_iron_opal", EnumRarity.COMMON, 0);
+	public static ItemRing opalGoldRing = new ItemRing("ring_gold_opal", EnumRarity.COMMON, 1);
 	
 	public static void register(IForgeRegistry<Item> registry) {
 		registry.registerAll(
@@ -84,7 +93,15 @@ public class RosetteItems {
 				cherry,
 				acorn,
 				acornCooked,
-				pineCone
+				pineCone,
+				batFur,
+				batGuano,
+				goldRing,
+				goldTiara,
+				ironTiara,
+				ironRing,
+				opalIronRing,
+				opalGoldRing
 		);
 	}
 	
@@ -122,6 +139,14 @@ public class RosetteItems {
 		acorn.registerItemModel();
 		acornCooked.registerItemModel();
 		pineCone.registerItemModel();
+		batFur.registerItemModel();
+		batGuano.registerItemModel();
+		goldRing.registerItemModel();
+		goldTiara.registerItemModel();
+		ironTiara.registerItemModel();
+		ironRing.registerItemModel();
+		opalIronRing.registerItemModel();
+		opalGoldRing.registerItemModel();
 	}
 
 }
